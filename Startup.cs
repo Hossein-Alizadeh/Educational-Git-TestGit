@@ -14,12 +14,12 @@ namespace TestGit
 {
     public class Startup
     {
-        //TODO Comment
+       
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
-        //TODO Comment
+    
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -27,7 +27,7 @@ namespace TestGit
         {
             services.AddControllers();
         }
-        //TODO Comment
+    
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

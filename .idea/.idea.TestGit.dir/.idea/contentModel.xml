@@ -8,8 +8,6 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
-        <e p="AuthController.cs" t="Include" />
-        <e p="Login1Controller.cs" t="Include" />
         <e p="LoginController.cs" t="Include" />
         <e p="WeatherForecastController.cs" t="Include" />
       </e>
